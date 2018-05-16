@@ -53,6 +53,14 @@ RUN apk del .fetch-deps \
     && apk del .build-deps \
     && rm /build_python.sh
 
+# Some packages needed for cython
+RUN apk add --no-cache \
+    gcc \
+    libc-dev \
+    make \
+    openssl \
+    openssl-dev
+
 # Installing tox for one python version is sufficient
 RUN pip3.6 install tox
 
