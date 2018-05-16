@@ -12,4 +12,5 @@ Running tests with the image
 In the project root, run:
 
 .. code-block:: bash
+
     docker run -v $(pwd):/src xvzf/tox
