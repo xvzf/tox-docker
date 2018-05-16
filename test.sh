@@ -4,4 +4,4 @@
 cp -Rf /src /srccopy && cd /srccopy
 
 # Run tox for testing
-tox
+tox --skip-missing-interpreters
