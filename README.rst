@@ -13,4 +13,4 @@ In the project root, run:
 
 .. code-block:: bash
 
-    docker run -v $(pwd):/src xvzf/tox
+    docker run --rm -v $(pwd):/src xvzf/tox
