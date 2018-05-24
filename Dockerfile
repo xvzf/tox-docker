@@ -19,6 +19,7 @@ RUN apk add --no-cache --virtual .fetch-deps \
         dpkg-dev dpkg \
         expat-dev \
         gcc \
+        g++ \
         gdbm-dev \
         libc-dev \
         libffi-dev \
